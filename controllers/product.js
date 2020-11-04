@@ -3,7 +3,7 @@ var router = express.Router();
 var session = require('express-session');
 var mongodb = require('mongodb');
 var MongoClient = mongodb.MongoClient;
-var configHeader = require("/configs/config_Header");
+
 
 var mongoose = require('mongoose');
 var Product = require('../models/product');
