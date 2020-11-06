@@ -356,7 +356,7 @@ function writeLog(dataw) {
 }
 
 /// ..................................................
-app.get('./qr', qrPage);
+app.get('/qr', qrPage);
 function qrPage(req, res) {
     var inter = os.networkInterfaces();
     var xcontent = "";
